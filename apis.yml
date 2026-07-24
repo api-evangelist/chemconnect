@@ -1,8 +1,25 @@
 aid: chemconnect
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chemconnect.png
 name: ChemConnect
-description: ChemConnect is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: ChemConnect, Inc. was a Houston, Texas-based electronic exchange (founded 1995) for trading
+  midstream energy, feedstocks, chemicals, and related commodities such as natural gas liquids, refined
+  and intermediate fuels, aromatics, olefins, and commodity polymers, serving thousands of member
+  companies with e-commerce, market information, negotiation, and supply-chain collaboration tooling. It
+  acquired rival CheMatch to form a leading commodity trading platform. The company is a now-exited
+  Battery Ventures portfolio investment; it no longer operates and the chemconnect.com domain is parked
+  and listed for sale (HugeDomains), so there is no live developer, API, or documentation surface to
+  enrich.
 url: https://raw.githubusercontent.com/api-evangelist/chemconnect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +27,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: Exited Battery Ventures investment; chemconnect.com parked/for-sale (HugeDomains), no live surface as of 2026-07-18
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Chemicals
+- Commodity Trading
+- Marketplace
+- E-Commerce
+- Energy
+- B2B
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
