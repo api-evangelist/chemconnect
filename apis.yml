@@ -25,12 +25,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chemconnec
 name: ChemConnect
 description: ChemConnect, Inc. was a Houston, Texas-based electronic exchange (founded 1995) for trading
   midstream energy, feedstocks, chemicals, and related commodities such as natural gas liquids, refined
-  and intermediate fuels, aromatics, olefins, and commodity polymers, serving thousands of member
-  companies with e-commerce, market information, negotiation, and supply-chain collaboration tooling. It
-  acquired rival CheMatch to form a leading commodity trading platform. The company is a now-exited
-  Battery Ventures portfolio investment; it no longer operates and the chemconnect.com domain is parked
-  and listed for sale (HugeDomains), so there is no live developer, API, or documentation surface to
-  enrich.
+  and intermediate fuels, aromatics, olefins, and commodity polymers, serving thousands of member companies
+  with e-commerce, market information, negotiation, and supply-chain collaboration tooling. It acquired
+  rival CheMatch to form a leading commodity trading platform. The company is a now-exited Battery Ventures
+  portfolio investment; it no longer operates and the chemconnect.com domain is parked and listed for
+  sale (HugeDomains), so there is no live developer, API, or documentation surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/chemconnect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,10 +38,11 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-reason: Exited Battery Ventures investment; chemconnect.com parked/for-sale (HugeDomains), no live surface as of 2026-07-18
+x-status-reason: Exited Battery Ventures investment; chemconnect.com parked/for-sale (HugeDomains), no
+  live surface as of 2026-07-18
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Chemicals
@@ -52,6 +52,7 @@ tags:
 - Energy
 - B2B
 - Supply Chain
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
